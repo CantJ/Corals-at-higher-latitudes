@@ -11,7 +11,7 @@ Although users are welcome to download any number of the scripts contained withi
 
 ***Constructing IPMs:*** Using the vital rate parameters extracted in the previous script, this R script parameterises a series of Integral Projection Models (IPMs) outlining the annual dynamics of the focal coral assemblages. This script also contains code for carrying out JackKnife resampling in order to generate a series of alternative IPMs to enable subsequent sensitivity analyses.
 
-***SST variance extraction and plotting:*** Taking a series of GPS coordinates, this script accesses temperature records housed in the [NOAA environmental data repository] (https://coastwatch.pfeg.noaa.gov/), to calculate measures of monthly sea surface temperature variability (mean, coefficient of variance, autocorrelation, and variance frequency). This script also outlines the code needed for reproducing maps visualising spatial patterns in temperature variability.
+***SST variance extraction and plotting:*** Taking a series of GPS coordinates, this script accesses temperature records housed in the NOAA environmental data repository (https://coastwatch.pfeg.noaa.gov/), to calculate measures of monthly sea surface temperature variability (mean, coefficient of variance, autocorrelation, and variance frequency). This script also outlines the code needed for reproducing maps visualising spatial patterns in temperature variability.
 
 ***Evaluating spatial patterns:*** This script processes the IPMs parameterised using a previous script to evaluate for taxonomic and spatial variability in various estimates of transient (*short-term*) and asymptotic (*long-term*) demographic properties. 
 
